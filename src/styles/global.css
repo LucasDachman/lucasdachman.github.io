@@ -82,3 +82,36 @@ main {
     color: white;
     background-color: var(--black);
 }
+
+.nav-header {
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid var(--black);
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+.nav-header a {
+    padding: 20px;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.nav-header a:first-child {
+    border-right: 1px solid var(--black);
+}
+
+.nav-header .current {
+    font-weight: 900;
+}
+
+.nav-header a:link, .nav-header a:visited {
+    text-decoration: none;
+}
+
+.nav-header a:hover, .nav-header a:active {
+    text-decoration: underline;
+}

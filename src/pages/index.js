@@ -13,7 +13,7 @@ const IndexPage = () => (
         <p className='landing-blurb'>Software Developer, Front-End, Mobile Applications, Music Technology</p>
       </header>
       <nav>
-        <Link to="/page-2/" className='button'>Works</Link>
+        <Link to="/works/" className='button'>Works</Link>
         <Link to="/page-2/" className='button'>Resume</Link>
         <Link to="/page-2/" className='button'>Github</Link>
       </nav>
