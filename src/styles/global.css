@@ -1,3 +1,4 @@
+@import './normalize.css';
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,900');
 
 :root {
@@ -10,9 +11,18 @@ html {
 }
 
 main {
-    max-width: 90%;
+    max-width: 660px;
     margin: auto;
 }
+
+.landing-main {
+    /* display: flex;
+    flex-flow: column nowrap;
+    justify-content: center; */
+    position: relative;
+    top: 130px;
+}
+
 
 .landing-header {
     text-align: center;
@@ -21,6 +31,7 @@ main {
 
 .landing-header h1 {
     margin: 0px;
+    font-weight: 900;
 }
 
 .landing-header h1:first-child {
@@ -33,7 +44,41 @@ main {
 
 .landing-blurb {
     text-align: center;
-    font-size: 17px;
-    letter-spacing: 0.01em;
+    font-size: 16px;
+    letter-spacing: 0.02em;
     line-height: 0;
+    font-weight: 600;
+}
+
+.landing-main nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    /* margin-top: 40px; */
+    margin: 40px 20px 0px 20px;
+}
+
+.button {
+    margin: 0px;
+    width: 170px;
+    height: 60px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid var(--black);
+    border-radius: 4px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    transition-property: color, background-color;
+    transition-duration: 150ms;
+}
+
+.button:link, .button:visited {
+    color: var(--black);
+}
+
+.button:hover, .button:active {
+    color: white;
+    background-color: var(--black);
 }
