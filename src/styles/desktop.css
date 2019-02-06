@@ -12,6 +12,8 @@ main {
     margin: auto;
 }
 
+/* Start Landing */
+
 .landing-main {
     /* display: flex;
     flex-flow: column nowrap;
@@ -55,6 +57,8 @@ main {
     margin: 40px 20px 0px 20px;
 }
 
+/* End Landing */
+
 .button {
     margin: 0px;
     width: 170px;
@@ -80,10 +84,14 @@ main {
     background-color: var(--black);
 }
 
+/* Start Navigation Header */
+
 .nav-header {
     position: fixed;
+    z-index: 10;
     width: 100%;
     border-bottom: 1px solid var(--black);
+    background-color: white;
     font-size: 16px;
     font-weight: 600;
     display: flex;
@@ -112,3 +120,42 @@ main {
 .nav-header a:hover, .nav-header a:active {
     text-decoration: underline;
 }
+
+/* End Navigation Header */
+
+/* Start Works */
+
+.works-main {
+    position: relative;
+    top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    z-index: 1;
+    grid-gap: 14px;
+}
+
+/* End Works */
+
+/* Start Work Preview */
+
+.work-preview {
+    height: 285px;
+    width: 190px;
+    box-shadow: 0px 24px 60px -14px rgba(0,0,0,0.1);
+
+}
+
+.work-preview p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    padding: 0px 4px;
+}
+
+.work-preview img {
+    width: 100%;
+}
+
+/* End Work Preview */
