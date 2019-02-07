@@ -1,12 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import img from '../images/wearable-midi.jpg'
+import { Link } from 'gatsby'
+import Img from 'gatsby-image'
 
-const WorkPreview = (props) => (
-  <article className='work-preview'>
-    <img src={img} alt={props.img} />
-    <p>{props.text}</p>
-  </article>
+const WorkPreview = ({title, path, body, fluid}) => (
+  <Link to={path}className='work-preview'>
+    <Img fluid={fluid} alt={title} />
+    <p>{body}</p>
+  </Link>
 )
 
 WorkPreview.propTypes = {
