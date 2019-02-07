@@ -33,7 +33,7 @@ query {
           title
           image {
             childImageSharp {
-              fluid(maxWidth: 600) {
+              fluid(maxWidth: 270, quality: 90) {
                 ...GatsbyImageSharpFluid
               }
             }
