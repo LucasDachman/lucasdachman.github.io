@@ -15,7 +15,7 @@ const IndexPage = () => (
       <nav>
         <Link to="/works/" className='button'>Works</Link>
         <Link to="/page-2/" className='button'>Resume</Link>
-        <Link to="/page-2/" className='button'>Github</Link>
+        <a href="https://github.com/lucasdachman" className='button'>Github</a>
       </nav>
     </main>
   </>

@@ -35,7 +35,7 @@ query {
           brief
           image {
             childImageSharp {
-              fluid(maxWidth: 270, quality: 90) {
+              fluid(maxWidth: 300, quality: 90) {
                 ...GatsbyImageSharpFluid
               }
             }

@@ -6,6 +6,6 @@ export default (props) => (
       <Link to='/'>Lucas Dachman</Link>
       <Link to='/works/' className='current'>Works</Link>
       <Link>Resume</Link>
-      <Link>Github</Link>
+      <a href="https://github.com/lucasdachman" target="_blank">Github</a>
   </nav>
 )
