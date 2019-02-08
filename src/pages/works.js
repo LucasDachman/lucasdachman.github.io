@@ -15,7 +15,7 @@ const Works = () => (
             {data.allMarkdownRemark.edges.map(({ node }) => (
               <WorkPreview title={node.frontmatter.title}
                 path={node.frontmatter.path}
-                body={node.excerpt}
+                brief={node.frontmatter.brief}
                 fluid={node.frontmatter.image.childImageSharp.fluid}/>
             ))}
           </main>
@@ -31,6 +31,8 @@ query {
       node {
         frontmatter {
           title
+          path
+          brief
           image {
             childImageSharp {
               fluid(maxWidth: 270, quality: 90) {
@@ -38,7 +40,6 @@ query {
               }
             }
           }
-          path
         }
         excerpt
       }

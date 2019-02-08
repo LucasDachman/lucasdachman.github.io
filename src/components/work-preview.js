@@ -3,10 +3,10 @@ import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 
-const WorkPreview = ({title, path, body, fluid}) => (
+const WorkPreview = ({title, path, brief, fluid}) => (
   <Link to={path}className='work-preview'>
     <Img fluid={fluid} alt={title} />
-    <p>{body}</p>
+    <p>{brief}</p>
   </Link>
 )
 
