@@ -34,14 +34,14 @@ query {
           path
           brief
           image {
-            childImageSharp {
+						childImageSharp {
               fluid(maxWidth: 300, quality: 90) {
                 ...GatsbyImageSharpFluid
               }
             }
           }
         }
-        excerpt
+        html
       }
     }
   }
