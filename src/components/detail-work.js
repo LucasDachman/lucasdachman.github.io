@@ -1,6 +1,7 @@
 import React from 'react'
 import Img from 'gatsby-image'
 import { graphql } from "gatsby"
+import NavHeader from '../components/nav-header'
 
 export default ({ data }) => {
   const { html } = data.markdownRemark
@@ -8,11 +9,16 @@ export default ({ data }) => {
   const { fluid } = data.markdownRemark.frontmatter.image.childImageSharp
 
     return (
-      <main>
-        <h1>{title}</h1>
-        <div dangerouslySetInnerHTML={{__html: html}}/>
+      <>
+      <NavHeader />
+      <main className='detail-work-main'>
         <Img fluid={fluid} alt={title}/>
+        <section>
+          <h1>{title}</h1>
+          <div dangerouslySetInnerHTML={{__html: html}}/>
+        </section>
       </main>
+      </>
     )
 }
 
