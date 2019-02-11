@@ -160,3 +160,30 @@ html {
 }
 
 /* End Work Preview */
+
+/* Start Work Detail */
+
+.detail-work-main {
+    position: relative;
+    top: 100px;
+    width: 1260px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.detail-work-main section {
+    width: 500px;
+}
+
+.detail-work-main h1 {
+    margin-top: 0px;
+}
+
+.detail-work-main .gatsby-image-wrapper {
+    width: 500px;
+    box-shadow: 0px 24px 60px -14px rgba(0,0,0,0.1);
+}
+
+/* End Work Detail */
