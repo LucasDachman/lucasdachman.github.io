@@ -181,9 +181,22 @@ html {
     margin-top: 0px;
 }
 
-.detail-work-main .gatsby-image-wrapper {
+.slick-slider {
     width: 500px;
-    box-shadow: 0px 24px 60px -14px rgba(0,0,0,0.1);
+}
+
+.slick-dots {
+    bottom: inherit;
+}
+
+.slick-dots li {
+    width: 100px;
+    height: 100px;
+}
+
+.detail-work-main .gatsby-image-wrapper {
+    /* width: 500px; */
+    /* box-shadow: 0px 24px 60px -14px rgba(0,0,0,0.1); */
 }
 
 /* End Work Detail */

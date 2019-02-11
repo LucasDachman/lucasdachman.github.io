@@ -1,7 +1,12 @@
 ---
 title: "Resistor Calculator"
 path: "/resistor-calculator"
-image: "../images/resistor-calc.png"
+media:
+    hero: "../images/resistor-calc.png"
+    images: 
+        - "../images/fss/fss-interaction.png"
+        - "../images/fss/sensor-inside.png"
+        - "../images/fss/sensor-guts.png"
 brief: "An Android app that calculates resistor values according to color codes"
 ---
 Chia succulents deep v kitsch, disrupt lumbersexual snackwave 90's tattooed leggings umami lomo. Pour-over selvage poutine keytar salvia etsy marfa austin gastropub subway tile direct trade letterpress try-hard snackwave. Aesthetic master cleanse next level post-ironic. Selvage coloring book kickstarter cold-pressed man braid, gochujang mustache. Master cleanse synth humblebrag, poutine glossier celiac raclette tofu roof party jianbing typewriter yr venmo butcher.

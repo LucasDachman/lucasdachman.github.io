@@ -16,7 +16,8 @@ const Works = () => (
               <WorkPreview title={node.frontmatter.title}
                 path={node.frontmatter.path}
                 brief={node.frontmatter.brief}
-                fluid={node.frontmatter.image.childImageSharp.fluid}/>
+                hero={node.frontmatter.media.hero.childImageSharp.fluid}
+                key={node.frontmatter.path}/>
             ))}
           </main>
         )  
@@ -29,22 +30,49 @@ query {
   allMarkdownRemark {
     edges {
       node {
+        html
         frontmatter {
           title
           path
           brief
-          image {
-						childImageSharp {
-              fluid(maxWidth: 300, quality: 90) {
-                ...GatsbyImageSharpFluid
+          media {
+            hero {
+              childImageSharp {
+                fluid(maxWidth: 300, quality: 90) {
+                  ...GatsbyImageSharpFluid,
+                  src
+                }
               }
             }
           }
         }
-        html
       }
     }
   }
 }
 `
+
+// const postsQuery = graphql`
+// query {
+//   allMarkdownRemark {
+//     edges {
+//       node {
+//         frontmatter {
+//           title
+//           path
+//           brief
+//           image {
+// 						childImageSharp {
+//               fluid(maxWidth: 300, quality: 90) {
+//                 ...GatsbyImageSharpFluid
+//               }
+//             }
+//           }
+//         }
+//         html
+//       }
+//     }
+//   }
+// }
+// `
 export default Works

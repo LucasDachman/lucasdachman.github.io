@@ -1,7 +1,13 @@
 ---
 title: "Wearable Midi Controller"
 path: "/wearable-midi-2"
-image: "../images/wearable-midi.JPG"
+media:
+    hero: "../images/wearable-midi.JPG"
+    images: 
+        - "../images/wearable-midi.JPG"
+        - "../images/fss/fss-interaction.png"
+        - "../images/fss/sensor-inside.png"
+        - "../images/fss/sensor-guts.png"
 brief: "A wearable device that detects distance and sends the data to any music software"
 ---
 

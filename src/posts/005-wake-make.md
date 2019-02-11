@@ -1,7 +1,12 @@
 ---
 title: "Wake / Make"
 path: "/wake-make"
-image: "../images/wakemake.png"
+media:
+    hero: "../images/wakemake.png"
+    images: 
+        - "../images/fss/fss-interaction.png"
+        - "../images/fss/sensor-inside.png"
+        - "../images/fss/sensor-guts.png"
 brief: "A moving typographic sculpture"
 ---
 
