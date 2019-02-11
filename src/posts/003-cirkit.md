@@ -2,11 +2,12 @@
 title: Cirkit
 path: "/cirkit"
 media:
-    hero: "../images/cirkit-logo.png"
+    hero: "../images/cirkit/cirkit-logo.png"
     images: 
-        - "../images/fss/fss-interaction.png"
-        - "../images/fss/sensor-inside.png"
-        - "../images/fss/sensor-guts.png"
+        - "../images/cirkit/cirkit-1.png"
+        - "../images/cirkit/cirkit-2.png"
+        - "../images/cirkit/cirkit-3.png"
+        - "../images/cirkit/cirkit-4.png"
 brief: "An iOS app that does common circuit calculations"
 ---
 Narwhal glossier cornhole copper mug whatever pickled YOLO. Poutine banjo hammock deep v PBR&B. Bicycle rights intelligentsia readymade palo santo flannel. Cred green juice pork belly art party viral woke.

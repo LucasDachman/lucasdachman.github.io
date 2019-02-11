@@ -2,7 +2,7 @@
 title: "Resistor Calculator"
 path: "/resistor-calculator"
 media:
-    hero: "../images/resistor-calc.png"
+    hero: "../images/resistor-calc/resistor-calc.png"
     images: 
         - "../images/fss/fss-interaction.png"
         - "../images/fss/sensor-inside.png"

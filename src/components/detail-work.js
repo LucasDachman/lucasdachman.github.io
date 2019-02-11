@@ -26,7 +26,7 @@ export default ({ data }) => {
 const SliderView = ({fluidImages}) => {
   console.log('fluidImages', fluidImages)
   const settings = {
-    customPaging: (i) => (<a><Img fluid={fluidImages[i]}/></a>),
+    customPaging: (i) => (<button><Img fluid={fluidImages[i]}/></button>),
     dots: true,
     dotsClass: "slick-dots slick-thumb",
     infinite: true,
@@ -51,7 +51,7 @@ query($slug: String!) {
       media {
         images {
           childImageSharp {
-            fluid(maxWidth: 500, quality: 90) {
+            fluid(maxHeight: 500, quality: 90) {
               ...GatsbyImageSharpFluid
             }
           }
