@@ -2,5 +2,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,900');
 @import '../../node_modules/slick-carousel/slick/slick.css';
 @import '../../node_modules/slick-carousel/slick/slick-theme.css';
-@import './desktop.css';
-@import './mobile.css';
+@import './main.css';
+@import './adaptive.css';
