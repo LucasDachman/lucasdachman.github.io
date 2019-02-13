@@ -1,6 +1,6 @@
 ---
 title: "Wearable Midi Controller"
-path: "/wearable-midi-2"
+path: "/wearable-midi"
 media:
     hero: "../images/wearable-midi/final-top.png"
     images: 
