@@ -16,8 +16,8 @@ export default ({ data }) => {
       <main className='detail-work-main'>
         <ImageGallery items={imageItems}
           renderItem={renderItem}
-          renderThumbInner={renderThumb} 
-          showFullscreenButton/>
+          renderThumbInner={renderThumb}
+          showThumbnails={imageItems.length > 1}/>
         <section className='copy'>
           <h1>{title}</h1>
           <div dangerouslySetInnerHTML={{ __html: html }} />

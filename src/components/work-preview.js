@@ -5,7 +5,7 @@ import Img from 'gatsby-image'
 
 const WorkPreview = ({title, path, brief, hero}) => (
   <Link to={path}className='work-preview'>
-    <Img fluid={hero} alt={title} />
+    <Img fixed={hero} alt={title} />
     <p>{brief}</p>
   </Link>
 )

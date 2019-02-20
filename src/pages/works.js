@@ -16,7 +16,7 @@ const Works = () => (
               <WorkPreview title={node.frontmatter.title}
                 path={node.frontmatter.path}
                 brief={node.frontmatter.brief}
-                hero={node.frontmatter.media.hero.childImageSharp.fluid}
+                hero={node.frontmatter.media.hero.childImageSharp.fixed}
                 key={node.frontmatter.path}/>
             ))}
           </main>
@@ -38,9 +38,9 @@ query {
           media {
             hero {
               childImageSharp {
-                fluid(maxWidth: 300, quality: 90) {
-                  ...GatsbyImageSharpFluid,
-                  src
+                fixed(height: 300, quality: 90) {
+                  src,
+                  ...GatsbyImageSharpFixed
                 }
               }
             }
