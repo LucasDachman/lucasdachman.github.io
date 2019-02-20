@@ -8,50 +8,32 @@ export default ({ data }) => {
   const { html } = data.markdownRemark
   const { title } = data.markdownRemark.frontmatter
   const mediaImages = data.markdownRemark.frontmatter.media.images
-  const imageItems = mediaImages.map(({childImageSharp}) => childImageSharp.fluid)
+  const imageItems = mediaImages.map(({ childImageSharp }) => childImageSharp.fluid)
 
   return (
     <>
-    <NavHeader />
-    <main className='detail-work-main'>
-      <ImageGallery items={imageItems} renderItem={renderItem} renderThumbInner={renderThumb}/>
-      <section className='copy'>
-        <h1>{title}</h1>
-        <div dangerouslySetInnerHTML={{__html: html}}/>
-      </section>
-    </main>
+      <NavHeader />
+      <main className='detail-work-main'>
+        <ImageGallery items={imageItems}
+          renderItem={renderItem}
+          renderThumbInner={renderThumb} 
+          showFullscreenButton/>
+        <section className='copy'>
+          <h1>{title}</h1>
+          <div dangerouslySetInnerHTML={{ __html: html }} />
+        </section>
+      </main>
     </>
   )
 }
 
 const renderItem = (item) => {
-  return <Img fluid={item}/>
+  return <Img fluid={item} />
 }
 
 const renderThumb = (item) => {
-  return <Img fluid={item}/>
+  return <Img fluid={item} />
 }
-
-/*
-const SliderView = ({fluidImages}) => {
-  console.log('fluidImages', fluidImages)
-  const settings = {
-    customPaging: (i) => (<button><Img fluid={fluidImages[i]}/></button>),
-    dots: true,
-    dotsClass: "slick-dots slick-thumb",
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    lazyLoad: true,
-  }
-  return (
-    <Slider {...settings}>
-      {fluidImages.map((fluid, i) => <Img fluid={fluid} key={i}/>)}
-    </Slider>
-  )
-}
-*/
 
 export const detailQuery = graphql`
 query($slug: String!) {
