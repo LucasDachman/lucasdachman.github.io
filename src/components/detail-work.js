@@ -2,18 +2,19 @@ import React from 'react'
 import Img from 'gatsby-image'
 import { graphql } from "gatsby"
 import NavHeader from '../components/nav-header'
-import Slider from "react-slick"
+import ImageGallery from 'react-image-gallery'
 
 export default ({ data }) => {
   const { html } = data.markdownRemark
   const { title } = data.markdownRemark.frontmatter
-  const mediaImages = data.markdownRemark.frontmatter.media.images.map(({childImageSharp}) => childImageSharp.fluid)
+  const mediaImages = data.markdownRemark.frontmatter.media.images
+  const imageItems = mediaImages.map(({childImageSharp}) => childImageSharp.fluid)
 
   return (
     <>
     <NavHeader />
     <main className='detail-work-main'>
-      <SliderView fluidImages={mediaImages}/>
+      <ImageGallery items={imageItems} renderItem={renderItem} renderThumbInner={renderThumb}/>
       <section className='copy'>
         <h1>{title}</h1>
         <div dangerouslySetInnerHTML={{__html: html}}/>
@@ -23,6 +24,15 @@ export default ({ data }) => {
   )
 }
 
+const renderItem = (item) => {
+  return <Img fluid={item}/>
+}
+
+const renderThumb = (item) => {
+  return <Img fluid={item}/>
+}
+
+/*
 const SliderView = ({fluidImages}) => {
   console.log('fluidImages', fluidImages)
   const settings = {
@@ -41,6 +51,7 @@ const SliderView = ({fluidImages}) => {
     </Slider>
   )
 }
+*/
 
 export const detailQuery = graphql`
 query($slug: String!) {
