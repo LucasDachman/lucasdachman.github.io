@@ -53,33 +53,6 @@ html {
 
 /* End Landing */
 
-.button {
-  margin: 0px;
-  width: 170px;
-  height: 60px;
-  text-decoration: none;
-  text-align: center;
-  font-weight: 600;
-  border: 1px solid var(--black);
-  border-radius: 4px;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  transition-property: color, background-color;
-  transition-duration: 150ms;
-}
-
-.button:link,
-.button:visited {
-  color: var(--black);
-}
-
-.button:hover,
-.button:active {
-  color: white;
-  background-color: var(--black);
-}
-
 /* Start Navigation Header */
 
 .nav-header {
@@ -175,13 +148,22 @@ html {
 }
 
 .detail-work-main .copy {
-  /* box-shadow: 0px 24px 60px -14px rgba(0, 0, 0, 0.1); */
   width: 500px;
   box-sizing: border-box;
   padding: 30px;
   border-radius: 4px;
   box-shadow: 0px 0px 50px 23px rgba(0, 0, 0, 0.112);
- }
+}
+
+.copy a,
+.copy a:link,
+.copy a:visited,
+.copy a:hover,
+.copy a:active {
+  color: var(--black);
+  font-weight: 500;
+}
+
 
 .detail-work-main h1 {
   margin-top: 0px;
@@ -200,5 +182,31 @@ html {
   justify-content: space-around;
 }
 
-
 /* End Work Detail */
+
+.button {
+  margin: 0px;
+  width: 170px;
+  height: 60px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  border: 1px solid var(--black);
+  border-radius: 4px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  transition-property: color, background-color;
+  transition-duration: 150ms;
+}
+
+.button:link,
+.button:visited {
+  color: var(--black);
+}
+
+.button:hover,
+.button:active {
+  color: white !important;
+  background-color: var(--black);
+}
