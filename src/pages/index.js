@@ -10,7 +10,7 @@ const IndexPage = () => (
       <header className='landing-header'>
         <h1>Lucas</h1>
         <h1>Dachman</h1>
-        <p className='landing-blurb'>Software Developer, Front-End, Mobile Applications, Music Technology</p>
+        <p className='landing-blurb'>{'{ Software Developer } { Web } { iOS } { Android } { Music Technology }'}</p>
       </header>
       <nav>
         <Link to="/works/" className='button'>Works</Link>

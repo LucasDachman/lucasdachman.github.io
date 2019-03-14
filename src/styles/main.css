@@ -36,7 +36,7 @@ html {
 
 .landing-blurb {
   text-align: center;
-  font-size: 16px;
+  font-size: 17px;
   letter-spacing: 0.02em;
   margin: 0px;
   /* line-height: 0; */
@@ -49,6 +49,11 @@ html {
   justify-content: space-between;
   /* margin-top: 40px; */
   margin: 40px 20px 0px 20px;
+}
+
+.landing-main nav .button:first-of-type {
+  border: 2px solid var(--black);
+  font-weight: 800;
 }
 
 /* End Landing */
