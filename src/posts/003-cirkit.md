@@ -6,7 +6,6 @@ media:
     images: 
         - "../images/cirkit/cirkit-1.png"
         - "../images/cirkit/cirkit-2.png"
-        - "../images/cirkit/cirkit-3.png"
         - "../images/cirkit/cirkit-4.png"
 brief: "An iOS app that does common circuit calculations"
 ---
