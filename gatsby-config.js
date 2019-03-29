@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Lucas Dachman`,
+    title: `Lucas Dachman Portfolio`,
     author: `Lucas Dachman`,
-    description: `My Portfolio`
+    description: `Lucas Dachman Portfolio`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -25,13 +25,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Lucas Dachman`,
+        short_name: `ldachman`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#ffffff`,
+        theme_color: `#383838`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/tile.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-transformer-remark`
