@@ -7,8 +7,16 @@ media:
         - "../images/cirkit/cirkit-1.png"
         - "../images/cirkit/cirkit-2.png"
         - "../images/cirkit/cirkit-4.png"
-brief: "An iOS app that does common circuit calculations"
+brief: "An iOS app that computes common circuit calculations"
 ---
-Narwhal glossier cornhole copper mug whatever pickled YOLO. Poutine banjo hammock deep v PBR&B. Bicycle rights intelligentsia readymade palo santo flannel. Cred green juice pork belly art party viral woke.
+Cirkit is a productivity app aimed at users learning about basic circuits. Functionalities include calculating resistor combinations (series/parallel) and calculating resistors needed for LED’s. Custom icons were created in Adobe XD.
 
-Locavore raclette microdosing jean shorts gentrify succulents. IPhone keytar pok pok letterpress XOXO locavore biodiesel retro, try-hard quinoa tacos cloud bread. Banjo cray migas letterpress beard live-edge locavore. Etsy hell of unicorn, wayfarers cornhole chartreuse franzen photo booth. Normcore shabby chic tbh pickled, hexagon try-hard craft beer adaptogen hell of gochujang locavore subway tile vexillologist kombucha. Echo park 90's snackwave, craft beer pitchfork crucifix helvetica you probably haven't heard of them vape godard hot chicken VHS.
+### Tools
+- XCode
+- Swift
+- Adobe XD
+
+<div class='detail-buttons'>
+    <a href='' class='button'>Video (ADD THIS)</a>
+    <a href='' class='button'>Code (ADD THIS)<a>
+<div>
