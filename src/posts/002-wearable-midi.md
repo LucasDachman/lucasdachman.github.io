@@ -8,7 +8,7 @@ media:
         - "../images/wearable-midi/final-side.png"
         - "../images/wearable-midi/final-top-open.png"
         - "../images/wearable-midi/assembly.png"
-brief: "A wearable device that detects distance and sends the data to any music software"
+brief: "A wearable controller compatible with any music software"
 ---
 
 This is a distance sensing midi controller that is worn around the ankle. It uses ultrasonic sensors to detect distance from the ankle in two directions. Ultrasonic sensors use the echo time from high frequency sound waves – basically, this device is quietly screaming all the time.
