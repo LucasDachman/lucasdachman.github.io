@@ -17,6 +17,5 @@ Cirkit is a productivity app aimed at users learning about basic circuits. Funct
 - Adobe XD
 
 <div class='detail-buttons'>
-    <a href='' class='button'>Video (ADD THIS)</a>
-    <a href='' class='button'>Code (ADD THIS)<a>
+    <a href='https://github.com/LucasDachman/Lucas-Dachman-Fall-2018-Mobile-Apps/tree/master/MAD-1/project-1/cirkit' class='button'>Code<a>
 <div>
