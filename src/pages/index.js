@@ -1,7 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
-
 import SEO from "../components/seo"
+
+// images
+import shellIcon from "../images/icons/shell.svg"
+import webDevIcon from "../images/icons/web-programmer.svg"
+import soundIcon from "../images/icons/soundwave.svg"
+import mobileIcon from "../images/icons/mobile.svg"
 
 const IndexPage = () => (
   <>
@@ -12,6 +17,12 @@ const IndexPage = () => (
         <h1>Dachman</h1>
         <p className='landing-blurb'>{'{ Software Developer } { Web } { iOS } { Android } { Music Technology }'}</p>
       </header>
+      <div className="landing-icons">
+        <img src={shellIcon} alt="shell" className="landing-icon"/>
+        <img src={webDevIcon} alt="web developer" className="landing-icon"/>
+        <img src={mobileIcon} alt="mobile phone" className="landing-icon"/>
+        <img src={soundIcon} alt="sound wave" className="landing-icon"/>
+      </div>
       <nav>
         <Link to="/works/" className='button'>Works</Link>
         <Link to="/page-2/" className='button'>Resume</Link>

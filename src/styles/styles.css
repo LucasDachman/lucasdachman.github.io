@@ -11,7 +11,7 @@ html {
 
 .landing-main {
   position: relative;
-  top: 20px;
+  top: 10vh;
   margin: auto;
   width: 90%;
   max-width: 660px;
@@ -40,6 +40,19 @@ html {
   letter-spacing: 0.02em;
 }
 
+.landing-icons {
+  margin: 4em auto;
+  width: 94%;
+  display: flex;
+  align-items: space-around;
+  justify-content: space-between;
+}
+
+.landing-icon {
+  height: 50px;
+  fill: var(--black);
+}
+
 .landing-main .button {
   margin: 30px auto;
 }
@@ -55,6 +68,10 @@ html {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+  }
+
+  .landing-main .button {
+    margin: 0 auto;
   }
 }
 
@@ -155,7 +172,6 @@ html {
   text-align: center;
   margin: auto;
   padding: 8px;
-
 }
 
 @media only screen and (min-width: 715px) {
