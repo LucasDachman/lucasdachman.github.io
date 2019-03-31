@@ -32,12 +32,15 @@ html {
   font-size: 15.63vw;
 }
 
-.landing-blurb {
+.landing-header h2 {
   text-align: center;
-  margin: 0px;
-  font-weight: 600;
-  font-size: 2.22vw;
-  letter-spacing: 0.02em;
+  margin: auto 0px;
+  font-weight: 400;
+  font-size: 3.6vw;
+  letter-spacing: 0.7em;
+  white-space: nowrap;
+  left: 0.3em;
+  position: relative;
 }
 
 .landing-icons {
@@ -86,8 +89,8 @@ html {
     font-size: 120px;
   }
 
-  .landing-blurb {
-    font-size: 17px;
+  .landing-header h2 {
+    font-size: 28px;
   }
 }
 

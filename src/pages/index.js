@@ -15,7 +15,7 @@ const IndexPage = () => (
       <header className='landing-header'>
         <h1>Lucas</h1>
         <h1>Dachman</h1>
-        <p className='landing-blurb'>{'{ Software Developer } { Web } { iOS } { Android } { Music Technology }'}</p>
+        <h2>Software Developer</h2>
       </header>
       <div className="landing-icons">
         <img src={shellIcon} alt="shell" className="landing-icon"/>
