@@ -11,7 +11,7 @@ media:
 brief: "An Android app that calculates resistor values according to color codes"
 ---
 
-A productivity app aimed at electrical engineers for determining information on resistors. The app has tabs for each type of resistor (4/5/6 band). Any details about a resistor can be determined by inputting the colors of the bands on a resistor. With this app, one can avoid memorizing complicated charts. The UI/UX was designed in Adobe XD.
+A productivity app aimed at electrical engineers for determining information on resistors. The app has tabs for each type of resistor (4/5/6 band). Any details about a resistor can be determined by inputting the colors of the bands on a resistor. With this app, one can avoid memorizing complicated charts.
 
 ### Tools
 - Android Studio
