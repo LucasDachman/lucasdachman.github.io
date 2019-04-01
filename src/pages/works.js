@@ -27,7 +27,9 @@ const Works = () => (
 
 const postsQuery = graphql`
 query {
-  allMarkdownRemark {
+  allMarkdownRemark (
+    sort: {order: ASC, fields: fileAbsolutePath}
+  ){
     edges {
       node {
         html
