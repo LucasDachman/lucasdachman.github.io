@@ -8,7 +8,7 @@ import WorkPreview from '../components/work-preview'
 const Works = () => (
   <>
     <SEO title="Works" />
-    <NavHeader />
+    <NavHeader current='works'/>
       <StaticQuery query={postsQuery} render={data => {
         return (
           <main className="works-main">
