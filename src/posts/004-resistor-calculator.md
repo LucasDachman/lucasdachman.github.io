@@ -18,6 +18,6 @@ A productivity app aimed at electrical engineers for determining information on 
 - Adobe XD
 
 <div class='detail-buttons'>
-    <a href='' class='button'>Video (ADD THIS)</a>
-    <a href='' class='button'>Code (ADD THIS)<a>
+    <a href='https://vimeo.com/327789118' class='button'>Video</a>
+    <a href='https://github.com/LucasDachman/Lucas-Dachman-Fall-2018-Mobile-Apps/tree/master/MAD-1/project-2' class='button'>Code<a>
 <div>
