@@ -7,6 +7,7 @@ import shellIcon from "../images/icons/shell.svg"
 import webDevIcon from "../images/icons/web-programmer.svg"
 import soundIcon from "../images/icons/soundwave.svg"
 import mobileIcon from "../images/icons/mobile.svg"
+import resumePDF from "../images/lucas-dachman-resume-2019.pdf"
 
 const IndexPage = () => (
   <>
@@ -25,7 +26,7 @@ const IndexPage = () => (
       </div>
       <nav>
         <Link to="/works/" className='button'>Works</Link>
-        <a href="https://github.com/lucasdachman" className='button'>Github</a>
+        <a href={resumePDF} className='button'>Resume</a>
         <Link to="/contact/" className='button'>Contact</Link>
       </nav>
     </main>
