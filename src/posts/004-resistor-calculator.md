@@ -4,9 +4,10 @@ path: "/resistor-calculator"
 media:
     hero: "../images/resistor-calc/resistor-calc.png"
     images: 
-        - "../images/fss/fss-interaction.png"
-        - "../images/fss/sensor-inside.png"
-        - "../images/fss/sensor-guts.png"
+        - "../images/resistor-calc/res-calc-1.png"
+        - "../images/resistor-calc/res-calc-2.png"
+        - "../images/resistor-calc/res-calc-3.png"
+        - "../images/resistor-calc/res-calc-4.png"
 brief: "An Android app that calculates resistor values according to color codes"
 ---
 

@@ -1,7 +1,7 @@
 {
   "name": "lucas-dachman-portfolio",
   "private": true,
-  "description": "A personal portfolio website made with Gatsby",
+  "description": "A personal portfolio website made with GatsbyJS",
   "version": "0.1.0",
   "author": "Lucas Dachman <lucas.dachman@gmail.com>",
   "homepage": "https://lucasdachman.github.io",

@@ -228,6 +228,11 @@ html {
   margin: auto;
 }
 
+.detail-work-main .img {
+  max-width: 500px;
+  max-height: 500px;
+}
+
 .detail-work-main .copy {
   box-sizing: border-box;
   padding: 0px 10px;
