@@ -228,6 +228,10 @@ html {
   margin: auto;
 }
 
+.image-gallery-thumbnail.active {
+  border-color: var(--black);
+}
+
 .detail-work-main .img {
   max-width: 500px;
   max-height: 500px;
