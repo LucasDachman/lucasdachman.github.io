@@ -35,9 +35,25 @@ module.exports = {
         icon: `src/images/tile.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-transformer-remark`
+    `gatsby-transformer-remark`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-134150630-2 ", 
+        // Puts tracking script in the head instead of the body
+        head: true,
+        // Setting this parameter is optional
+        anonymize: false,
+        // Setting this parameter is also optional
+        respectDNT: false,
+        // Avoids sending pageview hits from custom paths
+        exclude: ["/preview/**", "/do-not-track/me/too/"],
+        cookieDomain: "lucasdachman.github.com",
+      },
+    },
   ],
+  
 }
