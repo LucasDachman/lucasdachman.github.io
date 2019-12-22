@@ -26,7 +26,7 @@ const IndexPage = () => (
       </div>
       <nav>
         <Link to="/works/" className='button'>Works</Link>
-        <a href={resumePDF} className='button'>Resume</a>
+        <Link to="/resume/" className='button'>Resume</Link>
         <Link to="/contact/" className='button'>Contact</Link>
       </nav>
     </main>

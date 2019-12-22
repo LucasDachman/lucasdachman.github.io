@@ -453,4 +453,11 @@ button.button,
   background-color: var(--black);
 }
 
+main#resume {
+  margin: auto;
+  position: relative;
+  width: 800px;
+  top: 100px;
+}
+
 /* End Buttons */

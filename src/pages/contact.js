@@ -1,7 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
 import NavHeader from '../components/nav-header'
-
 import SEO from "../components/seo"
 
 const SecondPage = () => (
