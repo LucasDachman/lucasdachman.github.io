@@ -19,7 +19,7 @@ html {
  * ----------------------------------------
  */
 
- @-webkit-keyframes tracking-in-expand {
+@-webkit-keyframes tracking-in-expand {
   0% {
     letter-spacing: 1em;
     opacity: 0;
@@ -56,15 +56,15 @@ html {
  * ----------------------------------------
  */
 
- @-webkit-keyframes fade-in-fwd {
+@-webkit-keyframes fade-in-fwd {
   0% {
     -webkit-transform: translateZ(-80px);
-            transform: translateZ(-80px);
+    transform: translateZ(-80px);
     opacity: 0;
   }
   100% {
     -webkit-transform: translateZ(0);
-            transform: translateZ(0);
+    transform: translateZ(0);
     opacity: 1;
   }
 }
@@ -72,12 +72,12 @@ html {
 @keyframes fade-in-fwd {
   0% {
     -webkit-transform: translateZ(-80px);
-            transform: translateZ(-80px);
+    transform: translateZ(-80px);
     opacity: 0;
   }
   100% {
     -webkit-transform: translateZ(0);
-            transform: translateZ(0);
+    transform: translateZ(0);
     opacity: 1;
   }
 }
@@ -99,7 +99,7 @@ html {
   margin: 0px;
   font-weight: 900;
   -webkit-animation: fade-in-fwd var(--animation-time) cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in-fwd var(--animation-time) cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: fade-in-fwd var(--animation-time) cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 .landing-header h1:first-child {
@@ -120,7 +120,7 @@ html {
   left: 0.3em;
   position: relative;
   -webkit-animation: tracking-in-expand var(--animation-time) cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-          animation: tracking-in-expand var(--animation-time) cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: tracking-in-expand var(--animation-time) cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 .landing-icons {
@@ -135,7 +135,7 @@ html {
   height: 50px;
   fill: var(--black);
   -webkit-animation: fade-in-fwd var(--animation-time) cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in-fwd var(--animation-time) cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: fade-in-fwd var(--animation-time) cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 .landing-main .button {
@@ -144,7 +144,7 @@ html {
 
 .landing-main nav {
   -webkit-animation: fade-in-fwd var(--animation-time) cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in-fwd var(--animation-time) cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: fade-in-fwd var(--animation-time) cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 .landing-main nav .button:first-of-type {
@@ -332,6 +332,16 @@ html {
 .copy a, .copy a:link, .copy a:visited, .copy a:hover, .copy a:active {
   color: var(--black);
   font-weight: 500;
+}
+
+.copy small {
+  color: gray;
+  font-weight: 600;
+}
+
+h1+small {
+  display: block;
+  margin: -1.34em 0 0.67em 0;
 }
 
 .detail-buttons {
