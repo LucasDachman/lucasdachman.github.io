@@ -1,0 +1,7 @@
+.main {
+    position: relative;
+    top: 100px;
+    width: 95%;
+    max-width: 1260px;
+    margin: auto auto 40px 16.7vw;
+}
