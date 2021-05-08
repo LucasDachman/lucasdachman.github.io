@@ -1,13 +1,14 @@
 ---
 title: "Wearable Midi Controller"
+year: "2019"
 path: "/wearable-midi"
 media:
-    hero: "../images/wearable-midi/final-top.png"
-    images: 
-        - "../images/wearable-midi/final-top.png"
-        - "../images/wearable-midi/final-side.png"
-        - "../images/wearable-midi/final-top-open.png"
-        - "../images/wearable-midi/assembly.png"
+  hero: "../images/wearable-midi/final-top.png"
+  images:
+    - "../images/wearable-midi/final-top.png"
+    - "../images/wearable-midi/final-side.png"
+    - "../images/wearable-midi/final-top-open.png"
+    - "../images/wearable-midi/assembly.png"
 brief: "A wearable controller compatible with any music software"
 ---
 
@@ -16,6 +17,7 @@ This device uses your foot's position on an XY plane to control music. The contr
 It uses ultrasonic sensors to detect distance from the ankle in two directions. Ultrasonic sensors use the echo time from high frequency sound waves — basically, this device is quietly screaming all the time.
 
 ### Tools
+
 - Arduino Pro Micro
 - Ultrasonic Sensors
 - 3D Printing

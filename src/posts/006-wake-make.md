@@ -1,12 +1,13 @@
 ---
 title: "Wake / Make"
+year: "2019"
 path: "/wake-make"
 media:
-    hero: "../images/wake-make/wakemake.png"
-    images: 
-        - "../images/wake-make/wakemake.png"
-    links: 
-        - "../images/wake-make/wakemake.gif"
+  hero: "../images/wake-make/wakemake.png"
+  images:
+    - "../images/wake-make/wakemake.png"
+  links:
+    - "../images/wake-make/wakemake.gif"
 brief: "A moving typographic sculpture"
 ---
 

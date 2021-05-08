@@ -1,19 +1,21 @@
 ---
 title: "Resistor Calculator"
+year: "2019"
 path: "/resistor-calculator"
 media:
-    hero: "../images/resistor-calc/resistor-calc.png"
-    images: 
-        - "../images/resistor-calc/res-calc-1.png"
-        - "../images/resistor-calc/res-calc-2.png"
-        - "../images/resistor-calc/res-calc-3.png"
-        - "../images/resistor-calc/res-calc-4.png"
+  hero: "../images/resistor-calc/resistor-calc.png"
+  images:
+    - "../images/resistor-calc/res-calc-1.png"
+    - "../images/resistor-calc/res-calc-2.png"
+    - "../images/resistor-calc/res-calc-3.png"
+    - "../images/resistor-calc/res-calc-4.png"
 brief: "An Android app that calculates resistor values according to color codes"
 ---
 
 A productivity app aimed at electrical engineers for determining information on resistors. The app has tabs for each type of resistor (4/5/6 band). Any details about a resistor can be determined by inputting the colors of the bands on a resistor. With this app, one can avoid memorizing complicated charts.
 
 ### Tools
+
 - Android Studio
 - Java
 - Adobe XD
