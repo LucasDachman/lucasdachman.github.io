@@ -1,19 +1,18 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
-import Img from 'gatsby-image'
+import React from "react";
+import PropTypes from "prop-types";
+import { Link } from "gatsby";
+import Img from "gatsby-image";
 
-const WorkPreview = ({title, path, brief, hero}) => (
-  <Link to={path}className='work-preview'>
+const WorkPreview = ({ title, path, brief, hero }) => (
+  <Link to={path} className="work-preview">
     <Img fixed={hero} alt={title} />
     <p>{brief}</p>
   </Link>
-)
+);
 
 WorkPreview.propTypes = {
   img: PropTypes.string,
   text: PropTypes.string,
-}
-
+};
 
 export default WorkPreview;
