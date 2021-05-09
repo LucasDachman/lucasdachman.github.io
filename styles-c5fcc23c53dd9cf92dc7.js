@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{n7P9:function(o,n,p){o.exports={main:"about-module--main--1nFcU",copy:"about-module--copy--3KDg0",portrait:"about-module--portrait--1xIYR"}},rMck:function(o,n,p){}}]);
+//# sourceMappingURL=styles-c5fcc23c53dd9cf92dc7.js.map
