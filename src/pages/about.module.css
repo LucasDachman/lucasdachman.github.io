@@ -1,7 +1,23 @@
 .main {
     position: relative;
     top: 100px;
-    width: 95%;
-    max-width: 1260px;
-    margin: auto auto 40px 16.7vw;
+    width: 90%;
+    max-width: 550px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.main .copy {
+    margin-bottom: 2em;
+    line-height: 1.4;
+}
+
+.portrait {
+    max-width: 480px;
+}
+
+@media only screen and (min-width: 990px) {
+    .main {
+        margin: auto auto 100px 16.7vw;
+    }
 }
