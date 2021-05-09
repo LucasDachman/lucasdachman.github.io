@@ -1,9 +1,8 @@
 module.exports = {
-  pathPrefix: `/portfolio-v2`,
   siteMetadata: {
     title: `Lucas Dachman Portfolio`,
     author: `Lucas Dachman`,
-    description: `Lucas Dachman Portfolio`
+    description: `Lucas Dachman Portfolio`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -42,7 +41,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-134150630-2 ", 
+        trackingId: "UA-134150630-2 ",
         // Puts tracking script in the head instead of the body
         head: true,
         // Setting this parameter is optional
@@ -55,5 +54,4 @@ module.exports = {
       },
     },
   ],
-  
-}
+};
