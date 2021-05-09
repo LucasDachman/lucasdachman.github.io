@@ -19,7 +19,10 @@ const AboutPage = () => {
 
           <p>
             As a student at CU Boulder’s College of Engineering, I graduated
-            with a bachelor's degree in Creative Technology &amp; Design
+            with a bachelor's degree in{" "}
+            <a href="https://www.colorado.edu/atlas/academics/undergraduate">
+              Creative Technology &amp; Design
+            </a>{" "}
             (previously, TAM) where I participated in a broad, transdisciplinary
             curriculum that integrated technological skills with a critical,
             theoretical and historical understanding of creativity, technology
@@ -27,7 +30,8 @@ const AboutPage = () => {
           </p>
           <p>
             In the past couple years I have worked to co-found a SaaS based
-            company called Dialed.ai that makes productivity software.
+            company called <a href="https://dialed.ai/">Dialed.ai</a> that makes
+            productivity software.
           </p>
 
           <p>
