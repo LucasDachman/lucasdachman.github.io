@@ -50,7 +50,7 @@ module.exports = {
         respectDNT: false,
         // Avoids sending pageview hits from custom paths
         exclude: ["/preview/**", "/do-not-track/me/too/"],
-        cookieDomain: "lucasdachman.github.com",
+        cookieDomain: "lucasdachman.dev",
       },
     },
   ],
