@@ -8,11 +8,14 @@ const SecondPage = () => (
     <NavHeader current="contact" />
     <main className="contact-main">
       <h1>Contact Me</h1>
-      <form method="POST" action="https://formspree.io/lucas.dachman@gmail.com">
+      <form
+        method="POST"
+        action="https://formspree.io/f/lucas.dachman@gmail.com"
+      >
         <input
           className="email-input"
           type="email"
-          name="email"
+          name="_replyto"
           placeholder="Your email"
         />
         <textarea
